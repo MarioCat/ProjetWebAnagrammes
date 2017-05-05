@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<comptes>
+	<user mail="test@mail.com">
+		<pseudo>user1</pseudo>
+		<pass>root</pass>
+	</user>
+<user mail="chat@gmail.com"><pseudo>bibouille</pseudo><pass>chat</pass></user><user mail="atv.rocknroll@live.fr"><pseudo>Arnaud</pseudo><pass>abcd</pass></user><user mail="chatchat@gmail.com"><pseudo>Kalina</pseudo><pass>elec</pass></user><user mail="yo@gmail.com"><pseudo>heyy</pseudo><pass>elec</pass></user></comptes>

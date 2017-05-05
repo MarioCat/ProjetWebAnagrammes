@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="freelance, RH, consulting">
+	<meta name="author" content="Arnaud Tussy-Vassilieff">
+	<meta name="geo.placename" content="Nice">
+	<meta name="geo.country" content="France">
+	
+	<title>Anagrammes</title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+  </head>
+  
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+	
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button>
+				</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Pseudo</a></li>
+					<li><a href="#presentation">Règles du jeu</a></li>
+					<li><a href="#presentation">Recommencer</a></li>
+					<li><a href="#presentation">Déconnexion</a></li>
+				</ul>
+			</div>
+			</div>
+		</nav>
+	
+		
+		<div class="container-fluid text-center">
+		<br><br><br><br>
+			<h4>Mots saisis</h4>
+			<span class="glyphicon glyphicon-minus"></span><span class="glyphicon glyphicon-minus"></span>
+			
+			<div class="row">
+				<div class="col-sm-3">
+				</div>
+				<div class="col-sm-3">
+					<h5>Tentatives</h5>
+					<ul id="tentatives">
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h5>Mots trouvés</h5>
+					<ul id="trouves">
+					</ul>
+				</div>
+				<div class="col-sm-3">
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid bg-grey" id="contact">
+			<h2 class="text-center">Saisir un mot</h2>
+				<div class="row f-grey">
+					<div class="col-sm-3">
+					</div>
+					<div class="col-sm-6">
+				<div class="row">
+				<form class="contact-form" role="form" onsubmit="getMots()">
+		
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<input class="form-control" id="mot_saisi" name="mot_saisi" placeholder="Votre mot..." type="text" required>
+					</div>
+				</div></br>
+				<div class="row">
+				<div class="col-sm-12 form-group">
+					<button class="btn btn-default pull-right" type="submit">Envoyer</button>
+				</form>
+				<div id="result-message" role="alert"></div>
+				</div>
+				</div> 
+					</div>
+					<div class="col-sm-3">
+					</div>
+				</div>
+		</div>
+		
+		
+		
+		<footer class="container-fluid text-center">
+				<p>&copy; Anagrammes by Loris ANSIOT &amp; Arnaud TUSSY-VASSILIEFF - Tous droits réservés 2017 </a></p> 
+		</footer>
+
+		<script type="text/javascript" src="js/afficheMots.js"></script>
+
+	</body>
+</html>
